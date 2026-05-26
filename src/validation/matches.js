@@ -1,4 +1,6 @@
 // Zod Validators for Match-related endpoints
+// It helps to ensure that incoming data is in the expected format and provides clear error messages when validation fails.
+
 import { z } from 'zod';
 
 export const MATCH_STATUS = {
